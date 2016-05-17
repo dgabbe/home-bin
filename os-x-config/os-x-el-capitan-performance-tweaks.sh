@@ -1,4 +1,9 @@
 #! /usr/bin/env bash
+#
+# Sources:
+#  - http://www.defaults-write.com/10-terminal-commands-to-speed-up-your-mac-in-os-x-el-capitan/
+#  - https://gist.github.com/benfrain/7434600
+#  - https://github.com/drduh/
 
 #
 # Review the features above the ================ before you execute this file
@@ -9,8 +14,7 @@ defaults write com.apple.NetworkBrowser BrowseAllInterfaces -bool true
 
 # =====================================================================
 
-# Source: http://www.defaults-write.com/10-terminal-commands-to-speed-up-your-mac-in-os-x-el-capitan/
-# Source: https://gist.github.com/benfrain/7434600
+
 
 # Disable animations when opening and closing windows.
 defaults write NSGlobalDomain NSAutomaticWindowAnimationsEnabled -bool false
